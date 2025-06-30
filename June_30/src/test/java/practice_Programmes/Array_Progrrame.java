@@ -40,4 +40,23 @@ public class Array_Progrrame {
 		int[] resarr=Arrays.copyOfRange(arr, 0, index);
 		System.out.println("After : "+ Arrays.toString(resarr));
 	}
+	@Test(priority=3)
+	public void find_duplicate_elements_in_array_using_index() {
+		System.out.println("*****************************************");
+		int [] arr= {2,6,7,4,2,7};
+		boolean hasduplicates=false;
+		for(int i=0;i<arr.length;i++) {
+			for(int j=i+1;j<arr.length;j++) {
+				if(arr[i]==arr[j]) {
+					System.out.println(arr[i]+" ");
+					hasduplicates=true;
+					break;
+				}
+			}
+		}
+		if(!hasduplicates) {
+			System.out.println("No Duplictaes Found");
+		}
+		
+	}
 }
