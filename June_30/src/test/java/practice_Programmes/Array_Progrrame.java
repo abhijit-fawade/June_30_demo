@@ -57,6 +57,6 @@ public class Array_Progrrame {
 		if(!hasduplicates) {
 			System.out.println("No Duplictaes Found");
 		}
-		
+		//comments from branch june 30 first push
 	}
 }
