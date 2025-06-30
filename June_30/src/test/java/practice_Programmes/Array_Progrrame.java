@@ -58,5 +58,5 @@ public class Array_Progrrame {
 			System.out.println("No Duplictaes Found");
 		}
 		
-	} //comments added Comments dobuble added
-}
+	} //comments added Comments dobuble added again
+} 
